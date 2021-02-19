@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.NodeServices;
 using Microsoft.Extensions.Logging;
 using NodeServiceDemo.Models;
 
@@ -27,6 +28,16 @@ namespace NodeServiceDemo.Controllers
         {
             return View();
         }
+
+        public async Task<IActionResult>Demo([FromServices] INodeServices nodeServices)
+        {
+            var result = await nodeServices.InvokeAsync<int>("./NodeCode/JsService.js", 1, 2);
+            // return Content("1 + 2 = " + result);
+            ViewData["result"] = result;
+            return View();
+        }
+
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
