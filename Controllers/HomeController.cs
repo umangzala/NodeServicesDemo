@@ -29,7 +29,7 @@ namespace NodeServiceDemo.Controllers
             return View();
         }
 
-        public async Task<IActionResult>Demo([FromServices] INodeServices nodeServices)
+        public async Task<IActionResult>outputresult([FromServices] INodeServices nodeServices)
         {
             var result = await nodeServices.InvokeAsync<int>("./NodeCode/JsService.js", 1, 2);
             // return Content("1 + 2 = " + result);

@@ -14392,11 +14392,6 @@
   "RootNamespace": "NodeServiceDemo",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\Umang Zala\\NodeServiceDemo\\Views\\Home\\Demo.cshtml",
-      "TargetPath": "Views\\Home\\Demo.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\Umang Zala\\NodeServiceDemo\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
@@ -14419,6 +14414,11 @@
     {
       "FilePath": "c:\\Users\\Umang Zala\\NodeServiceDemo\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Umang Zala\\NodeServiceDemo\\Views\\Home\\outputresult.cshtml",
+      "TargetPath": "Views\\Home\\outputresult.cshtml",
       "FileKind": "mvc"
     },
     {

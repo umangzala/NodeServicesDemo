@@ -49,4 +49,4 @@ C:\Users\Umang Zala\NodeServiceDemo\bin\Debug\netcoreapp3.1\Microsoft.Extensions
 C:\Users\Umang Zala\NodeServiceDemo\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 C:\Users\Umang Zala\NodeServiceDemo\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 C:\Users\Umang Zala\NodeServiceDemo\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-C:\Users\Umang Zala\NodeServiceDemo\obj\Debug\netcoreapp3.1\Razor\Views\Home\Demo.cshtml.g.cs
+C:\Users\Umang Zala\NodeServiceDemo\obj\Debug\netcoreapp3.1\Razor\Views\Home\outputresult.cshtml.g.cs
