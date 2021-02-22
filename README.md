@@ -9,6 +9,7 @@ To run the project :
 1. Go to Project Location => CMD
 2. dotnet build
 3. dotnet run
+4. open https://localhost:5001/home/outputresult .
 
 ---
 
